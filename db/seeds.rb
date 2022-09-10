@@ -24,6 +24,14 @@ books.each do |book|
 end
 puts "✅ Done seeding!"
 
+puts "🌱 Seeding users..."
+User.create(username: "kali", email: "kali@gmail.com", password: "1234567")
+User.create(username: "man", email: "man@gmail.com", password: "1234567")
+User.create(username: "don", email: "don@gmail.com", password: "1234567")
+User.create(username: "sqll", email: "sqll@gmail.com", password: "1234567")
+User.create(username: "act", email: "act@gmail.com", password: "1234567")
+User.create(username: "ala", email: "ala@gmail.com", password: "1234567")
+puts "✅ Done seeding!"
 
 
 
