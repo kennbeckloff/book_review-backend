@@ -45,5 +45,17 @@ Author.create(name: "Wallace D. Wattles", book_id:8)
 Author.create(name: "Napoleon Hill", book_id:9)
 puts "✅ Done seeding!"
 
+puts "🌱 Seeding reviews..."
+Review.create(reviews:"great teachings i love the book", book_id:1, user_id:1)
+Review.create(reviews:"Fantastic words of encouragement", book_id:2, user_id:2)
+Review.create(reviews:"good workk", book_id:3, user_id:3)
+Review.create(reviews:"i love reading your books", book_id:4, user_id:4)
+Review.create(reviews:"Really this is amazing", book_id:5, user_id:5)
+Review.create(reviews:"funny and interesting", book_id:6, user_id:6)
+Review.create(reviews:"Perfect to the point", book_id:7, user_id:1)
+Review.create(reviews:"Sensational boook", book_id:8, user_id:3)
+Review.create(reviews:"Good teachings", book_id:9, user_id:5)
+puts "✅ Done seeding!"
+
 
 
