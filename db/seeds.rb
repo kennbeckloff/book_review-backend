@@ -2,6 +2,7 @@ puts "🌱 Seeding spices..."
 
 # Seed your database here
 
+books = ["wr3lCEKeuXAC", "KfBlcGzyvf8C", "7L2TtgEACAAJ", "tCMsEAAAQBAJ", "o-xztgAACAAJ", "Qx1pLwEACAAJ", "5V_6DwAAQBAJ", "-v8HDAAAQBAJ", "9CFGvgAACAAJ"]
 
 books.each do |book|
     response = RestClient.get "https://www.googleapis.com/books/v1/volumes/#{book}"
