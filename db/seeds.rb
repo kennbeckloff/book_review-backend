@@ -33,5 +33,17 @@ User.create(username: "act", email: "act@gmail.com", password: "1234567")
 User.create(username: "ala", email: "ala@gmail.com", password: "1234567")
 puts "✅ Done seeding!"
 
+puts "🌱 Seeding authors..."
+Author.create(name: "Napoleon Hill", book_id:1)
+Author.create(name: "David Bach", book_id:2)
+Author.create(name: "Kirankumar Nayak", book_id:3)
+Author.create(name: "Saket Shah", book_id:4)
+Author.create(name: "Helen Rhee", book_id:5)
+Author.create(name: "Napoleon Hill", book_id:6)
+Author.create(name: "Julie Ann Cairns", book_id:7)
+Author.create(name: "Wallace D. Wattles", book_id:8)
+Author.create(name: "Napoleon Hill", book_id:9)
+puts "✅ Done seeding!"
+
 
 
