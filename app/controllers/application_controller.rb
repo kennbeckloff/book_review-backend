@@ -44,5 +44,16 @@ class ApplicationController < Sinatra::Base
   end
 
  
+  post "/users/register" do
+    user = User.find_by(email: params[:email])
+    if user.nil?
+      hash = params.reject { |key, value| value.blank? }
+      new_user = User.create(hash)
+      # User.create(name: params[:name], email: params[:email], password: params[:password)
+      new_user.to_json
+    else
+      response = {response: "user already exists"}.to_json
+    end
+  end
 
 end
