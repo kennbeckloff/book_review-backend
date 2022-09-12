@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
-#gem "sinatra", "~> 2.1",require: false
+# gem "sinatra", "~> 2.1"
 
 # A fast and simple web server
 # https://github.com/macournoyer/thin
@@ -29,12 +29,14 @@ gem "sinatra-activerecord", "~> 2.0"
 gem "rake", "~> 13.0"
 
 # Provides functionality to interact with a SQLite3 database
-#gem "sqlite3", "~> 1.4"
+# gem "sqlite3", "~> 1.4"
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
 
-#gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
+# Require all files in a folder
+gem "rest-client", "~> 2.1"
+
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry", "~> 0.14.1"
@@ -52,6 +54,9 @@ group :test do
   gem "rspec-json_expectations", "~> 2.2"
 end
 
+# aading postresql
 group :production do
   gem 'pg', '~> 1.4', '>= 1.4.3'
 end
+
+# gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
