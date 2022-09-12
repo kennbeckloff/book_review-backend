@@ -53,3 +53,8 @@ group :test do
   gem "rspec", "~> 3.10"
   gem "rspec-json_expectations", "~> 2.2"
 end
+
+# aading postresql
+group :production do
+  gem 'pg', '~> 1.4', '>= 1.4.3'
+end
