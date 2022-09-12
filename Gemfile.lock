@@ -129,7 +129,6 @@ DEPENDENCIES
   rest-client (~> 2.1)
   rspec (~> 3.10)
   rspec-json_expectations (~> 2.2)
-  sinatra (~> 2.1)
   sinatra-activerecord (~> 2.0)
   sinatra-contrib (~> 2.2, >= 2.2.2)
   sqlite3 (~> 1.4)
